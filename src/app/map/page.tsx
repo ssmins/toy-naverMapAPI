@@ -2,6 +2,7 @@
 import NaverMap from "@/components/naverMap"
 import styles from "./main.module.css"
 import Dashboard from "@/components/dashboard"
+import YangsanMap from "@/components/yangsanmap"
 // import NaverMap2 from "@/components/map"
 
 export default function Map () { 
@@ -10,6 +11,9 @@ export default function Map () {
     <div className={styles.container}>
       <div className={styles.map}>
         <NaverMap />
+      </div>
+      <div className={styles.map}>
+        <YangsanMap />
       </div>
       {/* <div className={styles.map}>
         <NaverMap2 />
